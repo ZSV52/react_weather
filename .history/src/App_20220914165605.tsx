@@ -4,12 +4,12 @@ import './assets/scss/normalize.scss';
 
 const App = () => {
   return (
-    <div className="App">
+    <PageLayout>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/month-statistics" element={<MonthStatistics />} />
       </Routes>
-    </div>
+    </PageLayout>
   );
 };
 

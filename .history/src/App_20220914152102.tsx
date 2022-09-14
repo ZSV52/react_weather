@@ -4,12 +4,13 @@ import './assets/scss/normalize.scss';
 
 const App = () => {
   return (
-    <div className="App">
+    <PageLayout>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/month-statistics" element={<MonthStatistics />} />
+        <Route path="/" element={<GoodsPage />} />
+        <Route path="goods_page" element={<GoodsPage />} />
+        <Route path="edit_page" element={<EditPage />} />
       </Routes>
-    </div>
+    </PageLayout>
   );
 };
 
