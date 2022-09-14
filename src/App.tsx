@@ -1,9 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './assets/scss/normalize.scss';
-import EditPage from './entities/EditPage';
-import GoodsPage from './entities/GoodsPage';
-import PageLayout from './layouts/PageLayout';
 
 const App = () => {
   return (
